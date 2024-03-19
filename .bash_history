@@ -1,29 +1,3 @@
-docker push lavi324/react_practice:latest
-cd .
-cd ..
-kubectl apply -f deployment.yaml 
-kubectl apply -f service.yaml 
-kubectl get all
-kubectl delete all --all
-ls
-cd my-react-app
-ls
-rm -r build
-docker images
-docker rmi 11d
-cd src
-nano App.js
-cd ..
-ls
-cd my-react-app
-ls
-npm run build
-docker build -t lavi324/react_practicee .
-docker tag lavi324/react_practicee:latest lavi324/react_practicee:latest
-docker push lavi324/react_practicee:latest
-cd ..
-nano deployment.yaml
-kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 kubectl get all
 ls
@@ -517,6 +491,10 @@ git push origin main
 ls
 mv build-pod.yaml Build-pod.yaml
 ls
+git add .
+git commit -m "new"
+git push origin main
+nano Jenkinsfile
 git add .
 git commit -m "new"
 git push origin main
