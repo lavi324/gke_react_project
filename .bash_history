@@ -517,3 +517,7 @@ git push origin main
 ls
 mv build-pod.yaml Build-pod.yaml
 ls
+git add .
+git commit -m "new"
+git push origin main
+nano Jenkinsfile
