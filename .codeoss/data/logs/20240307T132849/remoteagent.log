@@ -1,0 +1,23 @@
+2024-03-07 13:28:49.649 [info] 
+
+
+
+
+2024-03-07 13:28:49.649 [info] Extension host agent started.
+2024-03-07 13:28:49.676 [info] Started initializing default profile extensions in extensions installation folder. file:///home/doritalduby/.codeoss/extensions
+2024-03-07 13:28:49.692 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/doritalduby/.codeoss/extensions
+2024-03-07 13:28:53.892 [info] [127.0.0.1][c05f19ea][ManagementConnection] New connection established.
+2024-03-07 13:28:53.916 [info] [127.0.0.1][bab585d6][ExtensionHostConnection] New connection established.
+2024-03-07 13:28:55.651 [info] Installing extensions...
+2024-03-07 13:28:56.218 [info] [127.0.0.1][bab585d6][ExtensionHostConnection] <1118> Launched Extension Host Process.
+2024-03-07 13:28:58.625 [info] [127.0.0.1][c05f19ea][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-07 13:28:58.676 [info] Installing extension 'ms-ceintl.vscode-language-pack-ja'...
+2024-03-07 13:28:58.990 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:28:59.359 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:29:00.570 [info] Extension signature verification is not done: ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:29:00.687 [info] Extracted extension to file:///home/doritalduby/.codeoss/extensions/ms-ceintl.vscode-language-pack-ja-1.83.0-universal: ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:29:00.693 [info] Renamed to /home/doritalduby/.codeoss/extensions/ms-ceintl.vscode-language-pack-ja-1.83.0-universal
+2024-03-07 13:29:00.695 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:29:00.701 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:29:00.808 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2024-03-07 13:29:00.809 [info] Extension 'ms-ceintl.vscode-language-pack-ja' v1.83.0 was successfully installed.

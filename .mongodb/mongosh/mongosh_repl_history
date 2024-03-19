@@ -1,0 +1,8 @@
+show collections
+db.items.renameCollection("teams");
+show collections
+db.items.find().limit(10).pretty()
+db.getCollectionNames().forEach(function (collection) { print(collection); });
+show collections
+use soccer
+show databases

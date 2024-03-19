@@ -1,0 +1,2 @@
+
+0686e007ed7003789cbbacb0c09d1d2c1941d0bc	{"key":"make-fetch-happen:request-cache:http://github.com/component/emitter/archive/1.0.1.tar.gz","integrity":null,"time":1710113023742,"size":"0","metadata":{"time":1710113023742,"url":"http://github.com/component/emitter/archive/1.0.1.tar.gz","reqHeaders":{},"resHeaders":{"location":"https://github.com/component/emitter/archive/1.0.1.tar.gz"},"options":{"compress":true},"status":301}}
