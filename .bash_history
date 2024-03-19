@@ -511,3 +511,9 @@ mv Jenkinsfile build-pod.yaml Dockerfile /home/doritalduby/
 ls
 cd ..
 ls
+git add .
+git commit -m "new"
+git push origin main
+ls
+mv build-pod.yaml Build-pod.yaml
+ls
