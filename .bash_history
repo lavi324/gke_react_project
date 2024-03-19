@@ -501,3 +501,13 @@ nano Jenkinsfile
 nano build-pod.yaml
 nano Jenkinsfile
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+cd frontend
+ls
+pwd
+mv Jenkinsfile build-pod.yaml Dockerfile /home/doritalduby/
+ls
+cd ..
+ls
