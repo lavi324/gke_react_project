@@ -1,7 +1,3 @@
-kubectl apply -f service.yaml
-kubectl get all
-ls
-cd my-react-app
 ls
 cd models
 ls
@@ -491,6 +487,10 @@ git push origin main
 ls
 mv build-pod.yaml Build-pod.yaml
 ls
+git add .
+git commit -m "new"
+git push origin main
+nano Jenkinsfile
 git add .
 git commit -m "new"
 git push origin main
