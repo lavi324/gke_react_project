@@ -1,97 +1,3 @@
-npx create-react-app my-react-app
-cd my-react-app
-ls
-cd src
-ls
-nano App.js
-cd ..
-npm run build
-npm install mongodb
-npm run build
-ls
-rm -f build
-rm -r build
-npm install mongodb-client-encryption
-npm run build
-cd ..
-npm start
-rm -r my-react-app
-ls
-npx create-react-app my-react-app
-cd my-react-app
-npm install mongodb
-npm install mongodb-client-encryption
-cd my-react-app
-cd src
-nano App.js
-npm install stream-browserify util timers-browserify dns crypto-browserify stream-http url
-cd ..
-run npm build
-npm build run
-npm run build 
-npm start
-cd ..
-rm -r my-react-app
-ls
-rm -f package-lock.json
-rm -f package.json
-ls
-rm -r node_modules
-ls
-npx create-react-app my-react-app
-npm install axios mongoose
-cd my-react-app
-ls
-nano server.js
-mkdir models
-cd models
-nano Item.js
-cd ..
-ls
-cd src
-ls
-nano App.js
-cd ..
-npm run build
-ls
-cd my-react-app
-npm run build
-docker login
-nano Dockerfile
-ls
-docker build -t lavi324/react_practice .
-docker tag lavi324/react_practice:latest lavi324/react_practice:latest
-docker push lavi324/react_practice:latest
-ls
-cd ..
-npm start
-ls
-nano deployment.yaml
-nano service.yaml
-kubectl apply -f deployment.yaml 
-kubectl apply -f service.yaml 
-kubectl get all
-ls
-cd my-react-app
-ls
-rm -f build
-rm -r build
-cd src
-ls
-nano App.js
-cd ..
-kubectl get all
-cd ..
-kubectl delete all --all
-cd my-react-app
-npm start
-ls
-npm run build
-docker images
-docker rmi 514
-docker build -t lavi324/react_practice .
-ls
-docker tag lavi324/react_practice:latest lavi324/react_practice:latest
 docker push lavi324/react_practice:latest
 cd .
 cd ..
@@ -561,4 +467,37 @@ ls
 touch values.yaml
 ls
 nano values.yaml
+cd ..
+git add .
+git commit -m "commit"
+git push -u origin main
+la
+halm package my_react_chart
+helm package my_react_chart
+cd my_react_chart
+ls
+mv chart.yaml Chart.yaml
+ls
+cd ..
+helm package my_react_chart
+helm push my-react-chart-0.1.0.tgz oci://registry-1.docker.io/lavi324
+kubectl config set-context --current --namespace=prod
+kubectl get all
+cd frontent
+cd frontend
+cd src
+nano App.js
+cd ..
+ls
+nano Dockerfile
+cd ..
+rm Dockerfile
+cd frontend
+git add .
+git commit -m "new"
+git pish origin main
+git push origin main
+nano Jenkinsfile
+nano build-pod.yaml
+nano Jenkinsfile
 cd ..

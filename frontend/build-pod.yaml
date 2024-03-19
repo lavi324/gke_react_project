@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: docker-image-build
+  namespace: jenkins
+spec:
+  containers:  
+  - name: dind
+    image: docker:24.0.7-dind-alpine3.18
+    imagePullPolicy: Always
+    securityContext:
+      privileged: true
