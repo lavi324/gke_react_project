@@ -527,3 +527,38 @@ git config --global user.name lavi324
 git commit -m "first commit"
 git add .
 git remote add origin https://github.com/lavi324/gke_react_project.git
+git add .
+git commit -m "first commit"
+git push -u origin main
+git push origin main
+git branch -M main
+git push -u origin main
+cd frontend
+nano Dockerfile
+pwd
+mv Dockerfile /home/doritalduby/frontend /home/doritalduby
+mv /home/doritalduby/frontend/Dockerfile /home/doritalduby/
+ls
+cd ..
+ls
+nano Dockerfile
+mkdir my_react_chart
+cd my_react_chart
+mkdir templates
+cd templates
+pwd
+mv deployment.yaml service.yaml /home/doritalduby/my_react_chart/templates
+ls
+cd ..
+mv deployment.yaml service.yaml /home/doritalduby/my_react_chart/templates
+cd my_react_chart
+cd templates
+ls
+cd ..
+nano chart.yaml
+nano values.yaml
+ls
+touch values.yaml
+ls
+nano values.yaml
+cd ..
