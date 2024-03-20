@@ -12,9 +12,6 @@ pipeline {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhublavi') 
         TAG = '0.2'
     }
-    tools {
-        nodejs '21.7.1'
-    }
     stages {
         stage('build') {
             steps {
