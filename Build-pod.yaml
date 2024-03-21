@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:  
   - name: dind
-    image: docker:24.0.7-dind-alpine3.18
+    image: lavi324/node_dind_image
     imagePullPolicy: Always
     securityContext:
       privileged: true

@@ -1,11 +1,3 @@
-docker images
-docker images -a
-ls
-rm -r build
-nano Dockerfile
-mongoose.connect("mongodb://root:neuIsdc0uQ@34.67.144.124:27017/?tls=false")
-npm install mongoose
-mongoose.connect("mongodb://root:neuIsdc0uQ@34.67.144.124:27017/?tls=false")
 mongoose.connect("mongodb://4.67.144.124:27017/lavi"
 ls
 cd models
@@ -499,3 +491,53 @@ git add .
 git commit -m "new"
 git push origin main
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+kubectl get all
+kubectl config set-context --current --namespace=jenkins
+kubectl get all
+kubectl exec -it jenkins-0 -- /bin/bash
+ls
+mkdir new
+cd new
+nano Dockerfile
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+nano Dockerfile
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+nano Dockerfile
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+rm Dockerfile
+nano Dockerfile
+docker build -t lavi324/node_dind_image:latest .
+docker tag lavi324/node_dind_image:latest lavi324/node_dind_image:latest
+docker push lavi324/node_dind_image:latest
+cd ..
+nano Build-pod.yaml
