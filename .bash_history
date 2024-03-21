@@ -541,3 +541,14 @@ docker tag lavi324/node_dind_image:latest lavi324/node_dind_image:latest
 docker push lavi324/node_dind_image:latest
 cd ..
 nano Build-pod.yaml
+git add .
+git commit -m "new"
+git push origin main
+nano jenkinsfile
+ls
+nano Jenkinsfile
+rm Jenkinsfile
+nano Jenkinsfile
+la
+nano App.js
+nano Jenkinsfile

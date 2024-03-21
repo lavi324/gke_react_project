@@ -13,15 +13,36 @@ pipeline {
         TAG = '0.2'
     }
     stages {
-        stage('build') {
+        stage('npm version') {
             steps {
                 sh 'npm version'  
             }        
         }
-        stage('Run npm build') {
+        stage('Setup') {
             steps {
-                echo 'Running npm build...'
-                sh 'npm run build'
+                script {
+                    // Create React app
+                    sh 'npx create-react-app my-app'
+                }
+            }
+        }
+        stage('Replace App.js') {
+            steps {
+                script {
+                    // Change directory to my-app/src
+                    dir('my-app/src') {
+                        // Download App.js from GitHub
+                        sh 'curl -o App.js https://raw.githubusercontent.com/lavi324/gke_react_project/main/App.js'
+                    }
+                }
+            }
+        }
+        stage('Build') {
+            steps {
+                script {
+                    // Build the React app
+                    sh 'cd .. && npm run build'
+                }
             }
         }
         stage('Test Docker') {
