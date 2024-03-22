@@ -7,42 +7,21 @@ pipeline {
             defaultContainer 'dind'
         }
     }
+
+    tools {
+        nodejs "21.7.1"
+    }
+
     environment {
         DOCKER_REGISTRY = 'https://registry.hub.docker.com'
         DOCKER_HUB_CREDENTIALS = credentials('dockerhublavi') 
         TAG = '0.2'
     }
     stages {
-        stage('npm version') {
-            steps {
-                sh 'npm version'  
-            }        
-        }
-        stage('Setup') {
-            steps {
-                script {
-                    // Create React app
-                    sh 'npx create-react-app my-app'
-                }
-            }
-        }
-        stage('Replace App.js') {
-            steps {
-                script {
-                    // Change directory to my-app/src
-                    dir('my-app/src') {
-                        // Download App.js from GitHub
-                        sh 'curl -o App.js https://raw.githubusercontent.com/lavi324/gke_react_project/main/App.js'
-                    }
-                }
-            }
-        }
         stage('Build') {
             steps {
-                script {
-                    // Build the React app
-                    sh 'cd .. && npm run build'
-                }
+                sh 'npm install'
+                sh 'npm run build'
             }
         }
         stage('Test Docker') {
@@ -75,4 +54,3 @@ pipeline {
         }
     }
 }
-

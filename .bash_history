@@ -1,61 +1,3 @@
-mongoose.connect("mongodb://4.67.144.124:27017/lavi"
-ls
-cd models
-ls
-rename Soccer.js
-rename Item.js Soccer.js
-nano Item.js
-cd ..
-ls
-nano server.js
-cd src
-nano App.js
-cd ..
-ls
-npm run build
-ls
-docker build -t lavi324/react_practice .
-docker tag lavi324/react_practice:latest lavi324/react_practice:latest
-docker push lavi324/react_practice:latest
-kubectl get all
-kubectl delete all --all
-kubectl get all
-cd ..
-kubectl get all
-ls
-nano deployment.yaml
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl get all
-kubectl delete all --all
-docker images
-docker rm 882
-docker rmi 882
-ls
-cd my-react-app
-ls
-rm -r build
-ls
-cd my-react-app
-curl http://localhost:3000
-ls
-nano server.js
-npm install axios mongoose
-npm start
-ls
-cd my-react-app
-ls
-npm install express
-nano server.js
-npm start
-nano server.js
-cd my-react-app
-nano server.js
-npm start
-nano server.js
-cd src
-nano App.js
-cd ..
 cd src
 nano App.js
 cd ..
@@ -551,4 +493,14 @@ rm Jenkinsfile
 nano Jenkinsfile
 la
 nano App.js
+nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+nano App.js
+ls
+nano Jenkinsfile
+rm Jenkinsfile
+nano Jenkinsfile
+rm Jenkinsfile
 nano Jenkinsfile
