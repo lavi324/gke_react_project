@@ -21,8 +21,9 @@ pipeline {
         stage('Build') {
             steps {
                 dir('frontend') { // Navigate into the frontend directory
-                sh 'npm install'
-                sh 'npm run build'
+                    sh 'npm install'
+                    sh 'npm run build'
+                }
             }
         }
         stage('Test Docker') {
