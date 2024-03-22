@@ -518,3 +518,13 @@ ls
 cd ..
 ls
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+ls -la
+cd frontend
+ls
+nano Jenkinsfile
+rm Jenkinsfile
+cd ..
+nano Jenkinsfile

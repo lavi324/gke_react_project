@@ -20,7 +20,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'ls -la'
+                dir('frontend') { // Navigate into the frontend directory
                 sh 'npm install'
                 sh 'npm run build'
             }
