@@ -504,3 +504,17 @@ rm Jenkinsfile
 nano Jenkinsfile
 rm Jenkinsfile
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+ls
+rm App.js
+cd frontend
+cd ..
+rm cd new
+ls
+cd new
+ls
+cd ..
+ls
+nano Jenkinsfile

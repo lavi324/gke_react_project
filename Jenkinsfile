@@ -20,6 +20,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh 'ls -la'
                 sh 'npm install'
                 sh 'npm run build'
             }
