@@ -539,3 +539,15 @@ cd frontend
 ls
 cd ..
 nano Dockerfile
+git add .
+git commit -m "new"
+git push origin main
+ls
+cd my_react_chart
+ls
+nano Chart.yaml
+cd templates
+ls
+nano deployment.yaml
+git add .
+cd ..
