@@ -527,3 +527,8 @@ docker push lavi324/node_dind_image:0.1
 cd ..
 ls
 nano Build-pod.yaml
+git add .
+git commit -m "new"
+docker push lavi324/node_dind_image:0.1
+git push origin main
+nano Jenkinsfile

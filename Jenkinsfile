@@ -59,7 +59,8 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: 'dockerhublavi', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
                     sh '''
                     echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin  
-                    sh 'helm push my-react-chart-0.1.3.tgz oci://registry-1.docker.io/lavi324'
+                    sh helm push my-react-chart-0.1.3.tgz oci://registry-1.docker.io/lavi324
+                    '''
                 }   
             }
         }
