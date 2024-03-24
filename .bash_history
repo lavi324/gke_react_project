@@ -1,58 +1,3 @@
-cd ..
-rm -rf project
-npx create-react-app project
-cd project
-cd src
-ls
-kubectl get all -n mongo
-mongo "mongodb://root:neuIsdc0uQ@34.67.144.124:27017/?tls=false"
-sudo apt-get update
-sudo apt-get install -y mongodb-clients
-mongo "mongodb://root:neuIsdc0uQ@34.67.144.124:27017/?tls=false"
-sudo apt-get install -y mongodb-clients
-mongosh --version'
-mongosh --version
-sudo apt-get install gnupg
-wget -qO- https://www.mongodb.org/static/pgp/server-7.0.asc | sudo tee /etc/apt/trusted.gpg.d/server-7.0.asc
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
-sudo apt-get update
-sudo apt-get install -y mongodb-mongosh
-mongosh --version
-mongosh "mongodb://root:neuIsdc0uQ@34.67.144.124:27017/?tls=false"
-ls
-rm -rf project
-mkdir server
-cd server
-npm init -y
-npm install express mongoose cors
-nano server.js
-npm install mongoose
-node server.js
-nano server.js
-npx create-react-app mongo-table-app
-cd mongo-table-app
-npm install axios
-cd src
-nano TableData.js
-nano App.js
-cd ..
-node server.js
-nano server.js
-npm start
-node server.js
-nano server.js
-curl http://localhost:5000/api/teams
-curl http://localhost:3000/api/teams
-cd src
-nano TableData.js
-cd ..
-node server.js
-nano server.js
-npm install cors
-npm start
-node server.js
-nano server.js
-node server.js
 nano server.js
 ls
 cd server
@@ -550,3 +495,12 @@ cd templates
 nano deployment.yaml
 cd ..
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+cd frontend
+ls
+cd ..
+ls
+mv new build-pod-image
+ls
