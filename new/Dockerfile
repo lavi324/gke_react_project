@@ -5,4 +5,11 @@ RUN apk update && \
     apk upgrade && \
     apk add --no-cache \
         nodejs \
-        npm
+        npm \
+        curl
+
+# Install Helm
+RUN curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 && \
+    chmod 700 get_helm.sh && \
+    /bin/ash get_helm.sh
+

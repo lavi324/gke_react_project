@@ -514,3 +514,16 @@ cd frontend
 cd src
 nano App.js
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+cd new
+ls
+nano Dockerfile
+docker build -t lavi324/node_dind_image:0.1 .
+nano Dockerfile
+docker build -t lavi324/node_dind_image:0.1 .
+docker push lavi324/node_dind_image:0.1
+cd ..
+ls
+nano Build-pod.yaml
