@@ -532,3 +532,21 @@ git commit -m "new"
 docker push lavi324/node_dind_image:0.1
 git push origin main
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+ls
+helm package my_react_chart
+helm push my-react-chart-0.1.3.tgz oci://registry-1.docker.io/lavi324
+cd frontend
+cd src
+nano App.py
+nano App.js
+cd ..
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
