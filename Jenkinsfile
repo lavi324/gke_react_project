@@ -15,7 +15,7 @@ pipeline {
     environment {
         DOCKER_REGISTRY = 'https://registry.hub.docker.com'
         DOCKER_HUB_CREDENTIALS = credentials('dockerhublavi') 
-        TAG = '0.2'
+        TAG = '0.3'
     }
     stages {
         stage('Build') {
@@ -47,6 +47,16 @@ pipeline {
                     docker push lavi324/react_project:${TAG}
                     '''
                 }
+            }
+        }
+        stage('Helm Package') {
+            steps {
+                sh 'helm package my_react_chart'
+            }
+        }
+        stage('Helm Push') {
+            steps {
+                sh 'helm push my-react-chart-0.1.2.tgz oci://registry-1.docker.io/lavi324'
             }
         }
     }

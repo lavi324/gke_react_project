@@ -1,83 +1,3 @@
-cd src
-nano App.js
-cd ..
-npm start
-ls
-cd models
-nano Item.js
-cd ..
-nano server.js
-npm start
-ls
-cd my-react-app
-npm install cors
-nano server.js
-cd my-react-app
-netstat -tuln | grep 3000
-npm start
-sudo netstat -tuln | grep 3000
-sudo lsof -i :3000
-sudo netstat -tuln | grep 3000
-sudo apt install lsof
-sudo apt update
-sudo lsof -i :3000
-sudo kill 4258
-npm start
-cd my-react-app
-ls
-nano server.js
-cd models
-nano Item.js
-cd ..
-nano server.js
-npm start
-ls
-kubectl get all
-cd my-react-app
-ls
-cd src
-ls
-nano App.js
-cd ..
-rm my-react-app
-rmdir my-react-app
-rmdir -r my-react-app
-rmdir -rf my-react-app
-rm -rf my-react-app
-ls
-rm package-lock.json
-rm package.jso
-rm package.json
-ls
-rm -rf node_modules
-ls
-mongod --version
-mkdir project
-cd project
-npm init
-npm install express mongoose cors
-ls
-nano server.js
-npx create-react-app client
-cd client
-npm install axios
-ls
-cd src 
-nano App.js
-cd ..
-node server.js
-cd ..
-cd project
-cd client
-cd project
-ls'
-ls
-cd client
-npm install cors
-cd ..
-nano server.js
-cd project
-nano server.js
 cd ..
 rm -rf project
 npx create-react-app project
@@ -551,3 +471,30 @@ ls
 nano deployment.yaml
 git add .
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+helm package my_react_chart
+ls
+helm push my-react-chart-0.1.1.tgz oci://registry-1.docker.io/lavi324
+kubectl config set-context --current --namespace=argo
+kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+ls
+nano Jenkinsfile
+rm Jenkinsfile
+nano Jenkinsfile
+cd frontend
+ls
+cd src
+nano App.py
+nano App.js
+cd ..
+nano Jenkinsfile
+cd my_react_chart
+ls
+nano Chart.yaml
+cd templates
+ls
+nano deployment.yaml
+cd ..
+git add .
