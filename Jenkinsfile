@@ -15,7 +15,7 @@ pipeline {
     environment {
         DOCKER_REGISTRY = 'https://registry.hub.docker.com'
         DOCKER_HUB_CREDENTIALS = credentials('dockerhublavi') 
-        TAG = '0.3'
+        TAG = '0.4'
     }
     stages {
         stage('Build') {
@@ -56,13 +56,17 @@ pipeline {
         }
         stage('Helm Push') {
             steps {
-                sh 'helm push my-react-chart-0.1.2.tgz oci://registry-1.docker.io/lavi324'
+                withCredentials([usernamePassword(credentialsId: 'dockerhublavi', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                    sh '''
+                    echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin  
+                    sh 'helm push my-react-chart-0.1.3.tgz oci://registry-1.docker.io/lavi324'
+                }   
             }
         }
     }
     post {
         success {
-            echo 'Docker image pushed successfully.'
+            echo 'Docker image and helm chart pushed successfully.'
         }
     }
 }
