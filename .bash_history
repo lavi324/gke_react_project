@@ -500,3 +500,14 @@ git push origin main
 ls
 rm Jenkinsfile
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+cd frontend
+cd src
+ls
+nano App.js
+cd ..
+ls
+rm Jenkinsfile
+nano Jenkinsfile

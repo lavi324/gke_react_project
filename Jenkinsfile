@@ -21,6 +21,9 @@ pipeline {
     stages {
         stage('Increment Versions') {
             steps {
+                // Add chmod +x command
+                sh 'chmod +x increment_versions.sh'
+                // Execute the script
                 sh './increment_versions.sh'
             }
         }
