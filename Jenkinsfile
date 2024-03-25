@@ -21,11 +21,7 @@ pipeline {
     stages {
         stage('Increment Versions') {
             steps {
-                sh 'which bash'
-                // Add chmod +x command
-                sh 'chmod +x increment_versions.sh'
-                // Execute the script
-                sh './increment_versions.sh'
+                sh '/bin/bash -c "chmod +x increment_versions.sh && ./increment_versions.sh"'
             }
         }
         stage('Push to GitHub') {
