@@ -21,10 +21,12 @@ pipeline {
     stages {
         stage('Increment Versions') {
             steps {
+                sh 'pwd'
+                sh 'ls'
                 // Add chmod +x command
-                sh 'chmod +x $WORKSPACE/increment_versions.sh'
+                sh 'chmod +x increment_versions.sh'
                 // Execute the script
-                sh '$WORKSPACE/increment_versions.sh'
+                sh './increment_versions.sh'
             }
         }
         stage('Push to GitHub') {
