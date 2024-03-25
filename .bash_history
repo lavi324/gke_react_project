@@ -1,42 +1,3 @@
-git add .
-git commit -m "new"
-git push origin main
-cd frontend
-ls
-cd ..
-nano Dockerfile
-git add .
-git commit -m "new"
-git push origin main
-ls
-cd my_react_chart
-ls
-nano Chart.yaml
-cd templates
-ls
-nano deployment.yaml
-git add .
-cd ..
-git add .
-git commit -m "new"
-git push origin main
-helm package my_react_chart
-ls
-helm push my-react-chart-0.1.1.tgz oci://registry-1.docker.io/lavi324
-kubectl config set-context --current --namespace=argo
-kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
-ls
-nano Jenkinsfile
-rm Jenkinsfile
-nano Jenkinsfile
-cd frontend
-ls
-cd src
-nano App.py
-nano App.js
-cd ..
-nano Jenkinsfile
-cd my_react_chart
 ls
 nano Chart.yaml
 cd templates
@@ -532,4 +493,10 @@ nano Jenkinsfile
 git add .
 git commit -m "new"
 git push origin main
+nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+nano Jenkinsfile
+rm Jenkinsfile
 nano Jenkinsfile
