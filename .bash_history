@@ -1,29 +1,3 @@
-nano server.js
-ls
-cd server
-ls
-cd mongo-table-app
-ls
-node server.js
-nano server.js
-npm start
-node server.js
-nano server.js
-node server.js
-nano server.js
-node server.js
-nano server.js
-node server.js
-nano server.js
-node server.js
-nano server.js
-node server.js
-nano server.js
-node server.js
-nano server.js
-ls
-cd src
-ls
 node server.js
 nano TableData.js
 cd ..
@@ -504,3 +478,113 @@ cd ..
 ls
 mv new build-pod-image
 ls
+git add .
+git commit -m "new"
+git push origin main
+git remote add origin https://github.com/lavi324/gke_react_project.git
+git remote add origin http://github.com/lavi324/gke_react_project.git
+git remote -v
+git push origin main
+git config --global credential.helper cache
+git push origin main
+git login
+git config
+git config --global user.name "lavi324"
+git config --global user.email "lavialduby@gmail.com"
+git push origin main
+git remote -v
+git config --global credential.helper cache
+git push origin main
+git config --global credential.helper 'cache --timeout=3600'
+git push origin main
+kubectl get nodes
+pwd
+ls
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+sudo apt-get install bc
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+ls
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+nano increment_versions.sh
+rm increment_versions.sh
+nano Jenkinsfile
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+ls
+cd my_react_chart
+cd templates
+pwd 
+nano deployment.yaml
+pwd
+cd ..
+ls
+nano Chart.yaml
+cd ..
