@@ -1,25 +1,3 @@
-ls
-nano Chart.yaml
-cd templates
-ls
-nano deployment.yaml
-cd ..
-git add .
-git commit -m "new"
-git push origin main
-helm package my_react_chart
-helm push my-react-chart-0.1.2.tgz oci://registry-1.docker.io/lavi324
-kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
-eff
-nano Jenkinsfile
-cd my_react_chart
-nano Chart.yaml
-cd templates
-nano deployment.yaml
-cd ..
-cd frontend
-cd src
-nano App.js
 cd ..
 git add .
 git commit -m "new"
@@ -517,3 +495,10 @@ nano increment_versions.sh
 nano Jenkinsfile
 git add .
 git push origin main
+git add .
+git commit -m "new"
+git push origin main
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project circular-gist-416512
+ךד
+ls
+nano Jenkinsfile
