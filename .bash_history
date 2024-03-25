@@ -549,3 +549,14 @@ git add .
 git commit -m "new"
 git push origin main
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+ls
+nano Jenkinsfile
+kubectl get podsd
+kubectl get pods
+kubectl exec -it new-42-s69fd-c9rvm-j2rtf -- /bin/bash
+kubectl get pods
+kubectl exec -it new-43-8lp6m-d65kh-5ntkg -- /bin/bash
+nano Jenkinsfile
