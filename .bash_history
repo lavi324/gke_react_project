@@ -588,3 +588,282 @@ cd ..
 ls
 nano Chart.yaml
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+ls
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+pwd
+cd my_react_chart
+nano Chart.yaml
+pwd
+nano Chart.yaml
+cd templates
+pwd
+cd ..
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+ls
+nano Chart.yaml
+cd tenplates
+cd templates
+ls
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+ls
+nano deployment.yaml
+cd ..
+cat jenkinsfile
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+./increment_versions.sh
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..

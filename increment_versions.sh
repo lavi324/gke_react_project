@@ -20,20 +20,42 @@ increment_helm_chart_version() {
 # Jenkinsfile path
 jenkinsfile_path="/home/doritalduby/Jenkinsfile"
 
+# Chart.yaml path
+chart_yaml_path="/home/doritalduby/my_react_chart/Chart.yaml"
+
+# Deployment.yaml path
+deployment_yaml_path="/home/doritalduby/my_react_chart/templates/deployment.yaml"
+
 # Get current image tag and increment
-current_tag=$(awk -F "'" '/TAG/ {print $2}' "$jenkinsfile_path")
+current_tag=$(awk '/image:/ {print $2}' "$deployment_yaml_path" | cut -d ':' -f 2)
 new_tag=$(increment_image_tag "$current_tag")
 
-# Replace image tag in Jenkinsfile
-sed -i "s/TAG = '$current_tag'/TAG = '$new_tag'/" "$jenkinsfile_path"
-echo "Image tag updated from $current_tag to $new_tag."
+# Replace image tag in deployment.yaml
+sed -i "s/image: lavi324\/react_project:$current_tag/image: lavi324\/react_project:$new_tag/" "$deployment_yaml_path"
+echo "Image tag updated from $current_tag to $new_tag in deployment.yaml."
 
-# Get current helm chart version and increment
+# Jenkinsfile - Get current image tag and increment
+current_jenkins_tag=$(awk -F "'" '/TAG/ {print $2}' "$jenkinsfile_path")
+new_jenkins_tag=$(increment_image_tag "$current_jenkins_tag")
+
+# Replace image tag in Jenkinsfile
+sed -i "s/TAG = '$current_jenkins_tag'/TAG = '$new_jenkins_tag'/" "$jenkinsfile_path"
+echo "Image tag updated from $current_jenkins_tag to $new_jenkins_tag in Jenkinsfile."
+
+# Jenkinsfile - Get current helm chart version and increment
 current_chart_version=$(awk -F '[.-]' '/helm push/ {print $4 "." $5 "." $6}' "$jenkinsfile_path")
 new_chart_version=$(increment_helm_chart_version "$current_chart_version")
 
 # Replace helm chart version in Jenkinsfile
 sed -i "s/helm push my-react-chart-$current_chart_version.tgz/helm push my-react-chart-$new_chart_version.tgz/" "$jenkinsfile_path"
-echo "Helm chart version updated from $current_chart_version to $new_chart_version."
+echo "Helm chart version updated from $current_chart_version to $new_chart_version in Jenkinsfile."
+
+# Chart.yaml - Get current helm chart version and increment
+current_chart_version=$(awk '/version:/ {print $2}' "$chart_yaml_path")
+new_chart_version=$(increment_helm_chart_version "$current_chart_version")
+
+# Replace helm chart version in Chart.yaml
+sed -i "s/version: $current_chart_version/version: $new_chart_version/" "$chart_yaml_path"
+echo "Helm chart version updated from $current_chart_version to $new_chart_version in Chart.yaml."
 
 echo "Image tag and helm chart version incremented."
