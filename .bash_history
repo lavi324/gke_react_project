@@ -545,3 +545,7 @@ ls
 cd ..
 ls
 nano Build-pod.yaml
+git add .
+git commit -m "new"
+git push origin main
+nano Jenkinsfile

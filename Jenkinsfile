@@ -21,8 +21,6 @@ pipeline {
     stages {
         stage('Increment Versions') {
             steps {
-                sh 'which bash > bash_location.txt'
-                sh 'cat bash_location.txt'
                 sh 'chmod +x increment_versions.sh'
                 sh './increment_versions.sh'
             }
