@@ -515,3 +515,33 @@ nano Jenkinsfile
 nano bash_location.txt
 ls
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+kubectl config set-context --current --namespace=jenkins
+kubectl get pods
+kubectl exec -it jenkins-0
+kubectl exec -it jenkins-0 -- bash
+kubectl get pods
+kubectl exec -it new-41-hrfpd-qhrjq-67nwv -- /bin/bash
+ls
+rm bash_location.txt
+cd build-pod-image
+ls
+nano Dockerfile
+rm Dockerfile
+nano Dockerfile
+docker images
+nano Dockerfile
+docker build -t lavi324/node_dind_image:0.1 .
+docker images
+docker rm lavi324/node_dind_image
+docker rmu lavi324/node_dind_image
+docker rmi lavi324/node_dind_image
+docker rmi 0d9637a22915
+docker build -t lavi324/node_dind_image:0.2 .
+docker push lavi324/node_dind_image:0.2
+ls
+cd ..
+ls
+nano Build-pod.yaml
