@@ -502,3 +502,9 @@ gcloud container clusters get-credentials cluster-1 --zone us-central1-c --proje
 ךד
 ls
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+nano Jenkinsfile
+rm increment_versions.sh
+nano increment_versions.sh
