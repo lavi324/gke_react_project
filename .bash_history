@@ -500,3 +500,8 @@ git push origin main
 nano Jenkinsfile
 rm Jenkinsfile
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+nano increment_versions.sh
+nano Jenkinsfile

@@ -1,4 +1,5 @@
 #!/bin/bash
+source config.sh
 
 # Increment image tag
 increment_image_tag() {
