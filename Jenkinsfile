@@ -22,7 +22,7 @@ pipeline {
         stage('Increment Versions') {
             steps {
                 // Add chmod +x command
-                sh 'chmod +x increment_versions.sh'
+                sh 'chmod +x $WORKSPACE/increment_versions.sh'
                 // Execute the script
                 sh '$WORKSPACE/increment_versions.sh'
             }
