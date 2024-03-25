@@ -17,10 +17,29 @@ pipeline {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhublavi') 
         TAG = '0.5'
     }
+
     stages {
+        stage('Increment Versions') {
+            steps {
+                sh './increment_versions.sh'
+            }
+        }
+        stage('Push to GitHub') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'github', usernameVariable: 'GITHUB_USER', passwordVariable: 'GITHUB_PASS')]) {
+                    sh '''
+                    git config --global user.email "lavialduby@gmail.com"
+                    git config --global user.name "lavi324"
+                    git add .
+                    git commit -m "pipeline commit"
+                    git push https://${GITHUB_USER}:${GITHUB_PASS}@github.com/lavi324/gke_react_project
+                    '''
+                }
+            }
+        }
         stage('Build') {
             steps {
-                dir('frontend') { // Navigate into the frontend directory
+                dir('frontend') {
                     sh 'npm install'
                     sh 'npm run build'
                 }
