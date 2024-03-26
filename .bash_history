@@ -1,39 +1,3 @@
-nano Jenkinsfile
-rm increment_versions.sh
-nano increment_versions.sh
-chmod +x increment_versions.sh
-./increment_versions.sh
-nano Jenkinsfile
-cd my_react_chart
-nano Chart.yaml
-cd templates
-nano deployment.yaml
-cd ..
-nano Jenkinsfile
-rm increment_versions.sh
-nano increment_versions.sh
-chmod +x increment_versions.sh
-./increment_versions.sh
-nano Jenkinsfile
-cd my_react_chart
-nano Chart.yaml
-cd templates
-nano deployment.yaml
-cd ..
-rm increment_versions.sh
-nano increment_versions.sh
-chmod +x increment_versions.sh
-./increment_versions.sh
-cd my_react_chart
-nano Chart.yaml
-cd templates
-nano deployment.yaml
-cd ..
-nano Chart.yaml
-cd ..
-nano Jenkinsfile
-rm increment_versions.sh
-pwd
 cd my_react_chart
 nano Chart.yaml
 pwd
@@ -522,3 +486,32 @@ ls
 rm -f 'cd frontend'
 rm -rf 'cd frontend'
 ls
+git add .
+git commit -m "new"
+fit push origim main
+fit push origin main
+git push origin main
+git pull origin main
+cd frontend
+cd src
+nano App.py
+nano App.js
+cd ..
+git pull origin main
+cd frontend
+ls
+cd public
+ls
+pwd
+mv /home/doritalduby/frontend/public/favicon.ico /home/doritalduby/build-pod-image/
+ls
+cd ..
+cd build-pod-image
+ls
+cd ..
+cd frontend
+cd public
+ls
+mv beitar.png favicon.ico
+ls
+cd ..
