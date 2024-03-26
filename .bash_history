@@ -532,3 +532,35 @@ git add .
 git commit -m "new"
 git push origin main
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+ls
+helm package my_react_chart
+cd my_react_chart
+ls
+nano Chart.yaml
+nano Jenkinsfile
+cd templates
+ls
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+helm package my_react_chart
+helm push my-react-chart-1.0.5.tgz oci://registry-1.docker.io/lavi324
+kubectl config set-context --current --namespace=argo
+kubectl get secret argo -n argocd -o jsonpath='{.data.<key>}' | base64 --decode
+kubectl get secret argo-cd -n argo -o jsonpath='{.data.<key>}' | base64 --decode
+kubectl get secrets -n argo
+kubectl get secret argocd-secret -n argo -o jsonpath='{.data}'
+kubectl get secrets -n argo
+kubectl get secret argocd-initial-admin-secret -n argo -o jsonpath='{.data}'
+echo "SGJBM2xka3J5TXVtTUU3RQ==" | base64 --decode
+ls
+nano Jenkinsfile
+cd my_react_chart
+ls
+nano Chart.yaml
+nano Jenkinsfile
+cd ..
+nano Jenkinsfile
