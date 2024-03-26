@@ -621,3 +621,13 @@ cd ..
 nano Chart.yaml
 cd ..
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
