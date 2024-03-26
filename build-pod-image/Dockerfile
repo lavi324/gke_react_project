@@ -7,7 +7,9 @@ RUN apk update && \
         nodejs \
         npm \
         curl \
-        bash
+        bash \
+        bc \
+        git
 
 # Install Helm
 RUN curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 && \

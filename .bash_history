@@ -560,3 +560,52 @@ kubectl exec -it new-42-s69fd-c9rvm-j2rtf -- /bin/bash
 kubectl get pods
 kubectl exec -it new-43-8lp6m-d65kh-5ntkg -- /bin/bash
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+ls
+./increment_versions.sh 
+chmod +x increment_versions.sh
+ls
+./increment_versions.sh 
+ls
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Jenkinsfile
+nano increment_versions.sh
+ls
+rm increment_versions.sh
+nano increment_versions.sh
+chmod +x increment_versions.sh
+./increment_versions.sh 
+sudo apt-get install bc
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
+nano Jenkinsfile
+sudo apt-get update
+./increment_versions.sh 
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+ls
+cd build-pod-image
+ls
+nano Dockerfile
+docker build -t lavi324/node_dind_image:0.3 .
+docker push lavi324/node_dind_image:0.3
+ls
+cd ..
+ls
+nano Build-pod.yaml

@@ -59,3 +59,4 @@ sed -i "s/version: $current_chart_version/version: $new_chart_version/" "$chart_
 echo "Helm chart version updated from $current_chart_version to $new_chart_version in Chart.yaml."
 
 echo "Image tag and helm chart version incremented."
+
