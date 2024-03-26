@@ -519,3 +519,12 @@ nano increment_versions.sh
 ls
 chmod +x increment_versions.sh
 ls
+git add .
+git commit -m "new"
+git push origin main
+kubectl get pods
+kubectl exec -it new-47-v9grz-lfrpg-6gq0w -- /bin/bash
+kubectl get pods
+nano local_script
+ls
+nano Jenkinsfile
