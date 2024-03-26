@@ -574,3 +574,17 @@ git push origin main
 ls
 rm my-react-chart-1.0.4.tgz my-react-chart-1.0.5.tgz
 ls
+git add .
+git commit -m "new"
+git push origin main
+ls
+nano Jenkinsfile
+ls
+cd my_react_chart
+nano Chart,yaml
+nano Chart.yaml
+cd templates
+ls
+nano deployment.yaml
+nano service.yaml
+cd ..

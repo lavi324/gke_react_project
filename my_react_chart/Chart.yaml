@@ -2,9 +2,5 @@ apiVersion: v2
 name: my-react-chart
 description: A Helm chart for deploying a react application
 type: application
-<<<<<<< HEAD
-version: 0.1.5	
-=======
-version: 1.0.5	
->>>>>>> f21ab7dabd8ec4e002a69ace0f2d44b9a92c831d
+version: 0.1.5		
 appVersion: "1.16.0"
