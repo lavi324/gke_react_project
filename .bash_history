@@ -668,3 +668,33 @@ cd frontend
 cd src
 nano App.js
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+kubectl config set-context --current --namespace=prod
+kubectl get all
+git pull origin main
+cd src
+cd frontend
+nano App.js
+cd src
+nano App.js
+cd ..
+cd frontend
+cd src
+nano App.js
+cd ..
+cd frontend
+cd src
+ls
+nano App.js
+cd ..
+cd frontend
+cd src
+nano App.js
+cd ..
+git pull origin main
+cd frontend
+cd src
+nano App.js
+cd ..
