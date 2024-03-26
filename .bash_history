@@ -568,3 +568,9 @@ git add .
 git commit -m "new"
 git push origin main
 git pull origin main
+git add .
+git commit -m "new"
+git push origin main
+ls
+rm my-react-chart-1.0.4.tgz my-react-chart-1.0.5.tgz
+ls
