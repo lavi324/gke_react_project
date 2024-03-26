@@ -588,3 +588,23 @@ ls
 nano deployment.yaml
 nano service.yaml
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+helm push my-react-chart-0.1.5.tgz oci://registry-1.docker.io/lavi324
+helm package my_react_chart
+helm push my-react-chart-0.1.5.tgz oci://registry-1.docker.io/lavi324
+cd frontend
+ls
+cd src
+nano App.js
+cd ..
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
+nano Jenkinsfile
