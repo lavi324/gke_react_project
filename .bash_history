@@ -631,3 +631,40 @@ nano deployment.yaml
 cd ..
 nano Chart.yaml
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+git add .
+git commit -m "new"
+git push origin main
+git reset HEAD^
+git pull origin main
+ls
+nano Jenkinsfile  
+cd my_react_chart
+ls
+nano Chart.yaml
+cd ..
+cd frontend
+ls
+cd build
+ls
+cd ..
+cd src
+ls
+nano App.js
+ls
+nano App.js
+cd ..
+nano App.js
+cd build
+cd frontend
+cd src
+nano App.js
+cd ..
+git pull origin main
+nano App.js
+cd frontend
+cd src
+nano App.js
+cd ..

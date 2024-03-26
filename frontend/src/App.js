@@ -18,7 +18,6 @@ function App() {
     {"name": "Inter", "place": 12, "points": 27, "wins": 8, "draws": 3, "losses": 17, "goals_scored": 30, "goals_conceded": 68},
     {"name": "Spurs", "place": 13, "points": 26, "wins": 8, "draws": 2, "losses": 18, "goals_scored": 30, "goals_conceded": 75},
     {"name": "Sevillia", "place": 14, "points": 23, "wins": 7, "draws": 2, "losses": 19, "goals_scored": 32, "goals_conceded": 81},
-    {"name": "Sevillia", "place": 14, "points": 23, "wins": 7, "draws": 2, "losses": 19, "goals_scored": 32, "goals_conceded": 81}
   ];
 
   return (
