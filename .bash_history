@@ -608,3 +608,16 @@ cd ..
 nano Chart.yaml
 cd ..
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+git pull origin main
+nano Jenkinsfile
+cd my_react_chart
+nano Chart.yaml
+cd templates
+nano deployment.yaml
+cd ..
+nano Chart.yaml
+cd ..
+nano Jenkinsfile
