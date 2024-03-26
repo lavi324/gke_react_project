@@ -509,3 +509,13 @@ docker build -t lavi324/node_dind_image:0.4 .
 docker push lavi324/node_dind_image:0.4
 cd ..
 nano Build-pod.yaml
+git add .
+git commit -m "new"
+git push origin main
+kubectl get pods
+pwd
+ls
+nano increment_versions.sh
+ls
+chmod +x increment_versions.sh
+ls
