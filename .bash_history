@@ -564,3 +564,7 @@ nano Chart.yaml
 nano Jenkinsfile
 cd ..
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+git pull origin main
