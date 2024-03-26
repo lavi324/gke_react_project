@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:  
   - name: dind
-    image: lavi324/node_dind_image:0.3
+    image: lavi324/node_dind_image:0.4
     imagePullPolicy: Always
     securityContext:
       privileged: true
