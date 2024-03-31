@@ -1,0 +1,4 @@
+gcloud run services update my-cloud-run-service \
+    --platform managed \
+    --region us-central1 \
+    --image docker.io/lavi324/git_hub_actions:?
