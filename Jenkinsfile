@@ -92,7 +92,7 @@ pipeline {
     }
     post {
         success {
-            echo 'Docker image and helm chart pushed successfully.'
+            echo 'the pipeline was successfull.'
         }
     }
 }
