@@ -540,3 +540,14 @@ cd src
 nano App.js
 cd ..
 git pull origin main
+git add .
+git commit -m "new"
+git push origin main
+argocd app sync app
+sudo apt-get update && sudo apt-get install argocd
+argocd version
+cd frontend
+cd src
+nano App.js
+cd ..
+git pull origin main
