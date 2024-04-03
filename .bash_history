@@ -1,13 +1,3 @@
-ls
-cd ..
-ls
-nano Build-pod.yaml
-git add .
-git commit -m "new"
-git push origin main
-nano Jenkinsfile
-git add .
-git commit -m "new"
 git push origin main
 ls
 nano Jenkinsfile
@@ -500,3 +490,21 @@ git push origin main
 cd terra
 ls
 nano Jenkinsfile
+git add .
+git commit -m "new"
+git push origin main
+gcloud run services update my-cloud-run-service     --platform managed     --region us-central1     --image docker.io/lavi324/git_hub_actions:0.6
+kubectl get all
+kubectl config set-context --current --namespace=argo
+kubectl get secrets
+kubectl get secret argocd-initial-admin-secret -o jsonpath='{.data.password}' | base64 --decode
+git pull origim main
+git pull origin main
+ls
+cd cd frontend
+cd frontend
+ls
+cd src
+ls
+nano App.js
+cd ..
