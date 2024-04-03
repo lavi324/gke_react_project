@@ -508,3 +508,26 @@ cd src
 ls
 nano App.js
 cd ..
+git add .
+git commit -m "new"
+git push origin main
+kubectl config set-context --current --namespace=jenkins
+kubectl get all
+kubectl get services
+kubectl get secrets
+kubectl get secret jenkins -o jsonpath='{.data.password}' | base64 --decode
+kubectl get secret sh.helm.release.v1.jenkins.v1 -o jsonpath='{.data.password}' | base64 --decode
+kubectl exec -it jenkins-0 -- /bin/bash
+kubectl logs jenkins-0
+kubectl get secrets
+kubectl get secret jenkins-admin-password -o jsonpath="{.data.password}" | base64 --decode
+kubectl get secret sh.helm.release.v1.jenkins.v1 -o jsonpath="{.data.password}" | base64 --decode
+kubectl get secret sh.helm.release.v1.jenkins.v1 -o jsonpath="{.metadata.annotations}" | jq
+helm get notes jenkins
+kubectl exec --namespace jenkins -it svc/jenkins -c jenkins -- /bin/cat /run/secrets/additional/chart-admin-password && echo
+cd frontend
+cd src
+nano App.js
+cd ..
+git pull origin amin
+git pull origin main
