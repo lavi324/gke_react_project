@@ -15,7 +15,7 @@ pipeline {
     environment {
         DOCKER_REGISTRY = 'https://registry.hub.docker.com'
         DOCKER_HUB_CREDENTIALS = credentials('dockerhublavi')
-        TAG = '1.6'
+        TAG = '1.7'
     }
 
     stages {
@@ -84,7 +84,7 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: 'dockerhublavi', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
                     sh '''
                     echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin  
-                    helm push my-react-chart-0.1.15.tgz oci://registry-1.docker.io/lavi324
+                    helm push my-react-chart-0.1.16.tgz oci://registry-1.docker.io/lavi324
                     '''
                 }   
             }
