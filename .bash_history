@@ -531,3 +531,12 @@ nano App.js
 cd ..
 git pull origin amin
 git pull origin main
+git add .
+git commit -m "new"
+git push origin main
+kubectl config set-context --current --namespace=argo
+cd frontend
+cd src
+nano App.js
+cd ..
+git pull origin main
